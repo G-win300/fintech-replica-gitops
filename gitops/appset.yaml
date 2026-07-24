@@ -16,7 +16,7 @@ spec:
     metadata:
       name: '{{ .name }}'
     spec:
-      project: default
+      project: fintech-replica
       source:
         repoURL: https://github.com/G-win300/fintech-replica-gitops.git
         targetRevision: master
