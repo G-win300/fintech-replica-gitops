@@ -1,0 +1,15 @@
+apiVersion: argoproj.io/v1alpha1
+kind: AppProject
+metadata:
+  name: fintech-replica
+  namespace: argocd
+spec:
+  description: Fintech replica microservices
+  sourceRepos:
+    - https://github.com/G-win300/fintech-replica-gitops.git
+  destinations:
+    - server: https://kubernetes.default.svc
+      namespace: kuda
+  clusterResourceWhitelist:
+    - group: ''
+      kind: Namespace
