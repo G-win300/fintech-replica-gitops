@@ -7,3 +7,4 @@ dapr:
 ingress:
   enabled: true
   host: app.mindville.online
+  certificateArn: arn:aws:acm:us-east-1:377510222088:certificate/dd499c1b-ec63-4cff-8864-be16edce0ae6
