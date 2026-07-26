@@ -1,7 +1,7 @@
 name: ledger-service
 image:
   repository: 377510222088.dkr.ecr.us-east-1.amazonaws.com/ledger-service
-  tag: "cad3af3"
+  tag: "e1ca01e"
 dapr:
   appId: ledger-service
 extraEnvFrom:
