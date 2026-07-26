@@ -1,6 +1,6 @@
 name: transactions-service
 image:
   repository: 377510222088.dkr.ecr.us-east-1.amazonaws.com/transactions-service
-  tag: "0896b9f"
+  tag: "cad3af3"
 dapr:
   appId: transactions-service
