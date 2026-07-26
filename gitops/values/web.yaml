@@ -1,7 +1,7 @@
 name: web
 image:
   repository: 377510222088.dkr.ecr.us-east-1.amazonaws.com/web
-  tag: "e1ca01e" # CI overwrites this on every run
+  tag: "b8bd895" # CI overwrites this on every run
 dapr:
   enabled: false
 ingress:
