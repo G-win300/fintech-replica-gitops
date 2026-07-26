@@ -1,0 +1,9 @@
+name: web
+image:
+  repository: 377510222088.dkr.ecr.us-east-1.amazonaws.com/web
+  tag: "0000000" # CI overwrites this on every run
+dapr:
+  enabled: false
+ingress:
+  enabled: true
+  host: app.mindville.online

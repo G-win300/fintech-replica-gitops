@@ -4,3 +4,6 @@ image:
   tag: "0896b9f"
 dapr:
   appId: ledger-service
+extraEnvFrom:
+  - secretRef:
+      name: postgres-creds
